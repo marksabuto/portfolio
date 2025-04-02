@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marks Abuto | Projects</title>
+  <meta name="description" content="Projects by Marks Abuto, Software Engineer">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container container">
+      <a href="index.html" class="logo">Marks Abuto</a>
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">My Projects</h1>
+      
+      <!-- Project Filter -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+      </div>
+      
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="python">
+          <div class="project-image">
+            <img src="images/project-python.jpg" alt="Python Project" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Simple Python Project</h3>
+            <p>A Python project for learning Git and GitHub fundamentals, demonstrating basic programming concepts.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Git</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/marksabuto/my-python-project" class="btn btn-small" target="_blank">View Code</a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Project 2 -->
+        <article class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="images/project-web.jpg" alt="Web Project" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Webpage HTML Project</h3>
+            <p>An HTML project to learn web development basics, focusing on semantic markup and accessibility.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/marksabuto/my-html-project" class="btn btn-small" target="_blank">View Code</a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Project 3 -->
+        <article class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="images/project-portfolio.jpg" alt="Portfolio Website" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>This responsive portfolio website showcasing my skills, projects, and professional background.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">View Project</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Marks Abuto</h3>
+          <p>Software Engineer & AI Enthusiast from Nairobi, Kenya</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-links">
+          <a href="https://github.com/marksabuto" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/marks-abuto" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/marksabuto" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Marks Abuto. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
