@@ -3,105 +3,173 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
-  }
-  
-  .contact-info {
+    margin-top: 3rem;
+}
+
+/* Services Section Styles */
+.services-section {
+    margin-bottom: 4rem;
+}
+
+.section-subtitle {
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-card i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.service-list li::before {
+    content: "•";
+    color: var(--primary);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Contact Info and Form Styles */
+.contact-info {
     order: 2;
-  }
-  
-  .contact-info h2 {
+}
+
+.contact-info h2 {
     margin-bottom: 1rem;
     color: var(--secondary);
-  }
-  
-  .contact-info p {
+}
+
+.contact-info p {
     margin-bottom: 2rem;
     color: var(--gray);
-  }
-  
-  .info-item {
+}
+
+.info-item {
     display: flex;
     gap: 1rem;
     margin-bottom: 1.5rem;
     align-items: flex-start;
-  }
-  
-  .info-item i {
+}
+
+.info-item i {
     font-size: 1.25rem;
     color: var(--primary);
     margin-top: 0.25rem;
-  }
-  
-  .info-item h3 {
+}
+
+.info-item h3 {
     margin-bottom: 0.25rem;
     color: var(--secondary);
-  }
-  
-  .info-item a {
+}
+
+.info-item a {
     color: var(--primary);
     text-decoration: none;
     transition: var(--transition);
-  }
-  
-  .info-item a:hover {
+}
+
+.info-item a:hover {
     text-decoration: underline;
-  }
-  
-  .social-links {
+}
+
+.social-links {
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
-  }
-  
-  .contact-form {
+}
+
+.contact-form {
     order: 1;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 1.5rem;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 500;
     color: var(--secondary);
-  }
-  
-  .form-group input,
-  .form-group textarea {
+}
+
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 0.75rem 1rem;
     border: 1px solid var(--light-gray);
     border-radius: var(--border-radius);
     font-family: inherit;
     transition: var(--transition);
-  }
-  
-  .form-group input:focus,
-  .form-group textarea:focus {
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
     outline: none;
     border-color: var(--primary);
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-  }
-  
-  .btn-block {
+}
+
+.btn-block {
     display: block;
     width: 100%;
     text-align: center;
-  }
-  
-  /* ===== MEDIA QUERIES ===== */
-  @media (min-width: 768px) {
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 768px) {
     .contact-container {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .contact-info {
-      order: 1;
+        order: 1;
     }
     
     .contact-form {
-      order: 2;
+        order: 2;
     }
-  }
+}

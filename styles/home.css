@@ -161,6 +161,81 @@
     color: var(--secondary);
   }
   
+  /* ===== PROJECTS SECTION ===== */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    text-align: center;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-icon {
+    width: 6rem;
+    height: 6rem;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 1rem;
+    color: var(--secondary);
+  }
+  
+  .tech-stack {
+    margin: 1rem 0;
+    color: var(--gray);
+    font-size: 0.9rem;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-outline-primary {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-outline-primary:hover {
+    background: var(--primary);
+    color: white;
+  }
+  
+  .btn-primary {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-primary:hover {
+    background: var(--primary-dark);
+    color: white;
+  }
+  
   /* ===== MEDIA QUERIES ===== */
   @media (min-width: 768px) {
     .about-grid {
