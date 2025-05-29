@@ -30,22 +30,22 @@ portfolio/
 ├── projects.html       # Projects showcase
 ├── resume.html         # Education/Resume
 ├── contact.html        # Contact page
-├── styles/            # CSS files
-│   ├── main.css       # Shared styles
+├── main.css            # Shared styles
+├── main.js             # Shared functionality
+├── styles/            # Additional CSS files
 │   ├── home.css       # Home page specific
 │   ├── projects.css   # Projects page specific
 │   └── contact.css    # Contact page specific
-├── images/            # All images
-│   ├── profile.jpg
-│   ├── hero-bg.jpg
-│   └── project-*.jpg
 ├── js/                # JavaScript
 │   ├── main.js        # Shared functionality
 │   ├── projects.js    # Projects filtering
 │   └── contact.js     # Form handling
+├── images/            # All images
+│   ├── profile.jpg
+│   ├── hero-bg.jpg
+│   └── project-*.jpg
 └── README.md          # This documentation
 ```
-
 
 ## 🚀 Getting Started
 
