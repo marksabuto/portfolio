@@ -114,7 +114,7 @@ Marks Alvin Abuto
 🌐 [abutomarks.netlify.app](https://abutomarks.netlify.app)  
 
 [![GitHub](https://img.shields.io/badge/GitHub-marksabuto-blue?style=flat&logo=github)](https://github.com/marksabuto)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-marksabuto-blue?style=flat&logo=linkedin)](https://linkedin.com/in/marks-abuto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-marksabuto-blue?style=flat&logo=linkedin)](https://linkedin.com/in/marksabuto)
 [![Twitter](https://img.shields.io/badge/Twitter-marksabuto-blue?style=flat&logo=twitter)](https://twitter.com/marksabuto)
 
 ---
